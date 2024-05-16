@@ -1,0 +1,26 @@
+.nav-button {
+  color: #b1b1b1;
+  text-decoration: none;
+  min-width: 23%;
+  font-size: 180%;
+  font-weight: 300;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #838383;
+  transition: 0.3s all ease;
+}
+
+.nav-button:hover,
+.nav-button.active {
+  font-weight: 500;
+  color: #eeeeee;
+  background-color: #c1b8db;
+}
+
+@media (max-width: 576px) {
+  .nav-button {
+    font-size: 100%
+  }
+  
+}

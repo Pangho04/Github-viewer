@@ -1,0 +1,19 @@
+.Language-button {
+  font-size: 100%;
+  margin: 2%;
+  height: 35%;
+  width: 50%;
+}
+
+.Language-select-box {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(14px);
+  height: 100%;
+  align-items: center;
+  gap: 2%;
+}
+
+.Language-select-box > select {
+  font-size: 150%;
+}

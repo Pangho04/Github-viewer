@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/vaco_symbol.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Viewer</title>
+    <style>
+      #vaco {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 100px;
+        background-color: white;
+        border: 1px solid #5a5a5a;
+        padding: 5px 15px;
+        border-radius: 100px;
+      }
+      @media (max-width: 576px) {
+        #vaco {
+          width: 15%;
+          right: 39%;
+          top: 1%
+        }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img id="vaco" src="/src/assets/vaco.png" />
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

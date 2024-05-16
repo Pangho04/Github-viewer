@@ -1,0 +1,40 @@
+.user-ID-Inputboxes{
+  transform: translateY(14px);
+}
+
+.Input-boxes {
+  display: flex;
+  gap: 4vh;
+  transform: scale3d(30vh, 1.5vh, 1.5vh);
+}
+
+.Input-boxes > input {
+  font-size: 2vh;
+}
+
+.ID-Submit-button {
+  display: block;
+  font-size: 2vh;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  border-radius: 8px;
+}
+
+.ID-Submit-button:hover {
+  color: #eeeeee;
+  background-color: #c1b8db;
+}
+
+@media (max-width: 576px) {
+  .user-ID-Inputboxes{
+    width: 70%;
+  }
+
+  .Input-boxes{
+    flex-direction: column;
+    gap : 3px
+  }
+}
